@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(252, 252, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, rgb(7, 7, 53), rgb(96, 17, 187));
+    color: white;
+    padding: 18px 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero {
+    background-image: linear-gradient(to right, rgb(206, 210, 210), rgb(111, 111, 114));
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.hero-left .one {
+    font-size: 60px;
+}
+
+.hero-left .two {
+    font-size: 30px;
+}
+
+.hero img {
+    border-radius: 10px;
+}
+
+.btn {
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgb(195, 192, 216), blue);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+}
+
+.project-image img {
+    width: 50vw;
+    height: 100vh;
+}
+
+.buttons {
+    font-size: medium;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.project-info{
+    display: flex;
+}
+
+.buttons{
+    align-items: flex-start;
+}
