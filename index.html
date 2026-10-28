@@ -1,46 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        .project-image img {
+            width: 40vw;
+            height: 50vh;
+            border-radius: 5%;
+            border-color: rgb(4, 4, 4);
+        }
+
+        .project {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            padding: 22px 100px;
+            border-top: 2px solid rgb(142, 131, 139);
+        }
+
+        .project-info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .project-info .text {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .project-info .line {
+            font-size: 20px;
+        }
+
+        .buttons {
+            font-size: 18px;
+            flex-direction: column;
+            background-color: blueviolet;
+            color: white;
+            border-radius: 5px;
+            border-color: white;
+            text-align: center;
+            cursor: pointer;
+            padding: 4px 10px;
+        }
+
+        .row-reverse {
+            flex-direction: row-reverse;
+        }
+
+        footer {
+            background-color: rgb(26, 26, 61);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-family: "roboto",sans-serif;
+        }
+    </style> -->
 </head>
+
 <body>
     <nav>
         <div class="logo">Portfolio Website</div>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contacts</li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contacts</a></li>
         </ul>
     </nav>
     <main>
         <section class="hero">
+            <div class="hero-profile">
             <div class="hero-left">
                 <div class="one">Welcome to my world</div>
                 <div class="two">I am a DEVELOPER</div>
                 <div>
-                    <button class="btn">Contacts</button>
-                    <button class="btn">Services</button>
+                    <a href="#" class="btn">Learn More →</a>
+                    <a href="#" class="btn">Contacts →</a>
                 </div>
             </div>
-            <img width="300px" height="300px" src="https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?s=1024x1024&w=is&k=20&c=ffZ9DMUWJuqSOgFds4ltM_71PRVfBBu5vhPznWewDOM=" alt="">
+            <img src="https://png.pngtree.com/png-vector/20250808/ourmid/pngtree-professional-cartoon-businessman-character-illustration-png-image_16764046.webp"
+                alt="">
+            </div>
         </section>
 
         <section class="projects">
             <div class="project">
                 <div class="project-image">
-                    <img src="https://images.pexels.com/photos/9553909/pexels-photo-9553909.jpeg" alt="Project">
+                    <img src="https://as1.ftcdn.net/v2/jpg/02/35/09/74/1000_F_235097419_oW8XQTFySkHTSvGsbRSn61VBRz5mxv1b.jpg"
+                        alt="Project">
                 </div>
-                <div class="project-info">AI household items.</div>
-                <div class="button">
-                    <br><br>
-                    <button class="buttons">Learn More</button>
+                <div class="project-info">
+                    <div class="text">AI household items</div>
+                    <p class="line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, perspiciatis!
+                        Error vitae vero temporibus incidunt quasi praesentium dicta iste beatae!</p>
+                    <div class="button">
+                        <a href="#" class="btn">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project row-reverse">
+                <div class="project-image">
+                    <img src="https://www.cio.com/wp-content/uploads/2026/03/4143357-0-44255900-1773310087-powerful-AI-aompanies-shutterstock_630500720.jpg?resize=2048%2C1152&quality=50&strip=all"
+                        alt="Project">
+                </div>
+                <div class="project-info">
+                    <div class="text">AI Companies</div>
+                    <p class="line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, perspiciatis!
+                        Error vitae vero temporibus incidunt quasi praesentium dicta iste beatae!</p>
+                    <div class="button">
+                        <a href="#" class="btn">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-image">
+                    <img src="https://nqr.gov.in/images/qualification/1753359986.jpg" alt="Project">
+                </div>
+                <div class="project-info">
+                    <div class="text">AI Qualification</div>
+                    <p class="line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, perspiciatis!
+                        Error vitae vero temporibus incidunt quasi praesentium dicta iste beatae!</p>
+                    <div class="button">
+                        <a href="#" class="btn">Learn More →</a>
+                    </div>
                 </div>
             </div>
         </section>
+        <section class="about" id="about">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=600" alt="Modern workspace">
+            </div>
+
+            <div class="about-content">
+                <h4>ABOUT US</h4>
+
+                <h1>We Build Digital Experiences That Matter</h1>
+
+                <p>
+                    We are passionate about creating beautiful, user-friendly,
+                    and innovative websites that help businesses grow.
+                    Our goal is to turn creative ideas into meaningful
+                    digital experiences.
+                </p>
+
+                <div class="stats">
+                    <div>
+                        <h2>3+</h2>
+                        <p>Years Experience</p>
+                    </div>
+
+                    <div>
+                        <h2>25+</h2>
+                        <p>Projects Done</p>
+                    </div>
+
+                    <div>
+                        <h2>15+</h2>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+
+                <a href="#" class="btn">Learn More →</a>
+            </div>
+        </section>
+
+
+        <section class="services" id="services">
+
+            <div class="services-heading">
+                <h4>MY SERVICES</h4>
+                <h1>What I Can Do For You</h1>
+                <p>
+                    I provide professional and creative solutions
+                    to turn your ideas into reality.
+                </p>
+            </div>
+
+            <div class="services-container">
+
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h2>Web Development</h2>
+                    <p>
+                        I build modern, responsive, and user-friendly
+                        websites using HTML, CSS, JavaScript, and React.
+                    </p>
+                    <a href="#">Learn More →</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        I create clean and attractive designs
+                        that improve user experience.
+                    </p>
+                    <a href="#">Learn More →</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h2>AI Solutions</h2>
+                    <p>
+                        I develop intelligent applications using
+                        AI technologies to solve real-world problems.
+                    </p>
+                    <a href="#">Learn More →</a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="contact" id="contact">
+
+            <div class="contact-heading">
+                <h4>CONTACT ME</h4>
+                <h1>Let's Work Together</h1>
+                <p>
+                    Have a project in mind? Feel free to contact me.
+                    I would love to hear from you!
+                </p>
+            </div>
+
+            <div class="contact-container">
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+
+                    <div class="contact-item">
+                        <span>📧</span>
+                        <div>
+                            <h3>Email</h3>
+                            <p>yourname@example.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>📞</span>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>📍</span>
+                        <div>
+                            <h3>Location</h3>
+                            <p>India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form" action="#" method="post">
+                    <h2>Send a Message</h2>
+
+                    <input type="text" name="name" placeholder="Your Name" required>
+
+                    <input type="email" name="email" placeholder="Your Email" required>
+
+                    <input type="text" name="subject" placeholder="Subject" required>
+
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                    <button type="submit">Send Message →</button>
+                </form>
+
+            </div>
+
+        </section>
+
+
+
     </main>
+    <footer>
+        Copyright &copy; 2026 | All rights reserved
+    </footer>
 </body>
+
 </html>
